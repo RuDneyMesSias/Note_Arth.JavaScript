@@ -1,0 +1,23 @@
+
+Comandos de impressão: 
+    window.alert()
+    window.confirm()
+    window.prompt()
+
+Identificadores 
+- Podem começar om letra, $ ou _
+- É possível usar letra ou números
+- É possível usar acento e símbolos 
+- Não podem 'começar com números'
+- Não podem 'conter espaços'
+- Não podem ser 'palavras reservadas'
+
+Fazem diferença entre Maiúscula para Minúscula. 
+Nomes coerentes 
+typeof
+number (4 , 5.2 , -1 ) infinity, NaN
+string (palavras)
+boolean 
+null
+undefined
+object - array function
