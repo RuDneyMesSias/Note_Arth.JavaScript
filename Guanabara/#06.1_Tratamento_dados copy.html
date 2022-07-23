@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font: normal 20pt Arial;
+
+        }
+    </style>
+</head>
+<body>
+    <script>
+
+
+    var n1 =Number(window.prompt('Digite seu salario: '))
+    var n2 =Number(window.prompt('Digite seu salario: '))
+    var s = (n1 + n2)/ 100
+    document.write(`A média salarial de joão ${n1} e maria ${n2} é ${s.toFixed(2).replace('.',',')}`) //resolver problema de localização!!!
+
+/*
+    var n1 =Number(window.prompt('Digite seu salario: '))
+    var n2 =Number(window.prompt('Digite seu salario: '))
+    var s = (n1 + n2)/ 100
+    document.write(`${n1.toFixed(2).replace('.',',')}<br>`)
+    document.write(`${n2.toFixed(2).replace('.',',')}<br>`)
+    document.write(`A média salarial de joão ${n1} e maria ${n2} é ${s.toFixed(2).replace('.',',')}`)
+    
+
+/*
+                
+                //Manipulando string
+                //var s ='JavaScrip'
+                //- s.length (Quantos caracteres a string tem)
+                //- s.toUpperCase(). tudo para 'MAIÚSCULO'
+                //- s.toLowerCase(). tudo para 'minúsculas'
+                
+
+        var nome = window.prompt("Qual é seu nome? ")
+        document.write(`olá, <strong>${nome}</strong>! seu nome tem ${nome.length} letras. </br>`)
+        document.write(`Seu nome em maiúsculo é ${nome.toLocaleUpperCase()}`)
+        document.write(`</br> Seu nome em minúsculas é ${nome.toLowerCase()}`)
+
+        
+                //Forma direta
+        var n1 =Number(window.prompt('Digite um número: '))
+        var n2 =Number(window.prompt('Digite outro número: '))
+        var s = n1 + n2
+        window.alert('A soma dos valores é ' + String(s) ) 
+
+
+                //FOrma para tipo int
+        var n1 =Number.parseInt(window.prompt('Digite um número Inteiro: '))
+        var n2 =Number.parseInt(window.prompt('Digite outro número Inteiro: '))
+        var s = n1 + n2
+        window.alert('A soma dos valores é ' + s ) 
+
+                //FOrma para tipos FLoat
+        var n1 =Number.parseFloat(window.prompt('Digite um número Flutuante: '))
+        var n2 =Number.parseFloat(window.prompt('Digite outro número Flutuante: '))
+        var s = n1 + n2
+        window.alert('A soma dos valores é ' + s ) 
+
+        
+                //FOrma para concatenação & conversão
+                // + para adição (number +number)
+                // + para concatenação (string + string)
+                //Conversão de string para número 
+        var n1 =window.prompt('Digite um número Concatenação: ')
+        var n2 =window.prompt('Digite outro número Concatenação: ')
+        var s = n1 + n2
+        window.alert('A soma dos valores é ' + s ) 
+        
+        
+                
+                //var s = 'JavaScript'
+                //'Eu estou aprendendo s'     não faz interpolação
+                //'Eu estou aprendendo' + s   usa concatenação
+                //`Eu estou aprendendo' ${s}` usa template string placeholde
+                
+
+        
+        var n1 =Number(window.prompt('Digite um número: '))
+        var n2 =Number(window.prompt('Digite outro número: '))
+        var s = n1 + n2
+        window.alert(`A soma entre ${n1} + ${n2} é igual á ${s}` ) // concatenação
+*/
+        </script>
+    </body>
+</html>
